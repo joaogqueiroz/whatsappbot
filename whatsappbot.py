@@ -8,7 +8,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://web.whatsapp.com')
 time.sleep(12)
 # definir contatos e grupos e mensagem a ser enviado
-contatos = ['Contato1', 'Contato2', 'Contato3']
+contatos = ['Grupo', 'Contato1', 'Contato2']
 mensagem = 'Olá sou um bot criado pelo João, este é um teste simples!'
 # Buscar contatos/grupos
 def buscar_contato(contato):
